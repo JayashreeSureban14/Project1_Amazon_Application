@@ -31,6 +31,9 @@ public class Home_Page
 	@FindBy(id="twotabsearchtextbox")
 	WebElement search_product_tf;
 	
+	//returns & orders
+	@FindBy(id="nav-orders")
+	WebElement returns_and_orders_btn;
 	
 	
 	//step 2
@@ -69,6 +72,11 @@ public class Home_Page
 	{
 		search_product_tf.sendKeys("shoes");
 		search_product_tf.sendKeys(Keys.ENTER);
+	}
+	
+	public void returns_and_orders()
+	{
+		returns_and_orders_btn.click();
 	}
 	
 	//step 3
