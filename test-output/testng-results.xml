@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-08T21:55:35 IST" name="Default suite" finished-at="2024-05-08T21:56:24 IST" duration-ms="49593">
+    <groups>
+    </groups>
+    <test started-at="2024-05-08T21:55:35 IST" name="Default test" finished-at="2024-05-08T21:56:24 IST" duration-ms="49593">
+      <class name="Project1_Testcases.TC12_Select_Each_Payment">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Project1_Testcases.TC12_Select_Each_Payment@3349e9bb]" started-at="2024-05-08T21:55:35 IST" name="launch_browser" finished-at="2024-05-08T21:55:40 IST" duration-ms="5568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="checkout_process()[pri:0, instance:Project1_Testcases.TC12_Select_Each_Payment@3349e9bb]" started-at="2024-05-08T21:55:40 IST" name="checkout_process" finished-at="2024-05-08T21:56:19 IST" duration-ms="38322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_process -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Project1_Testcases.TC12_Select_Each_Payment@3349e9bb]" started-at="2024-05-08T21:56:19 IST" name="close_browser" finished-at="2024-05-08T21:56:24 IST" duration-ms="5621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Project1_Testcases.TC12_Select_Each_Payment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
